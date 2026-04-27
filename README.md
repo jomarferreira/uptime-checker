@@ -1,33 +1,36 @@
-# Verificador de Sites 1.0
-This application accesses the urls and checks if the status code is 200, giving it as online, if the status code is different from 200, it informs that the site is offline.
+# 🌐 Website Availability Checker
 
-## Source Code
-You can also download [Verificador de Sites 1.0](https://github.com/joeywheelersam/verificador_sites_1.0.git) directly from its [Git repository](https://github.com/joeywheelersam/verificador_sites_1.0):
+## 🇧🇷 Descrição
+Aplicação desenvolvida em Python para monitoramento de disponibilidade de sites, permitindo verificar se um serviço está online ou offline em tempo real.
 
-```
-git clone https://github.com/joeywheelersam/verificador_sites_1.0.git
-```
+Este projeto simula uma ferramenta simples de **monitoramento de uptime**, muito utilizada em ambientes de produção para garantir a disponibilidade de aplicações e serviços web.
 
-## Dependencies
-[Verificador de Sites 1.0](https://github.com/joeywheelersam/verificador_sites_1.0) works out of the box with [Python 3.10](https://www.python.org/downloads/release/python-3100/) on any platform and requires the following packages:
-- [Requests 2.28.1+](https://pypi.org/project/requests/)
+---
 
-## Installation
-How to install dependencies:
-```
-pip install requests
-```
+## 🇺🇸 Description
+A Python application designed to monitor website availability, allowing real-time verification of whether a service is online or offline.
 
-## Usage
-How to run the program:
-```
+This project simulates a simple **uptime monitoring tool**, commonly used in production environments to ensure application and service availability.
+
+---
+
+## 🚀 Funcionalidades | Features
+- Verificação de status de sites (HTTP requests)
+- Identificação de sites online/offline
+- Execução via terminal (CLI)
+- Tratamento básico de erros de conexão
+
+---
+
+## 🧠 Tecnologias utilizadas | Tech Stack
+- Python
+- Requests
+
+---
+
+## 📦 Como executar | How to run
+```bash
+git clone https://github.com/jomarferreira/uptime-checker.git
+cd verificador_sites_1.0
+pip install -r requirements.txt
 python main.py
-```
-
-## License
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-[Verificador de Sites 1.0](https://github.com/joeywheelersam/verificador_sites_1.0) is free software, keeping the picture can USE AND ABUSE 

@@ -22,15 +22,16 @@ def testando_url (site):
                 else:
                     print(f"{solicitar} - Site offline. - {r.status_code}")
             except:
-                print (f"{solicitar} - URL inválida.")
+                print ("URL inválida.")
         else:
-            print (f"{solicitar} - URL inválida.")
+            print ("URL inválida.")
 
 # Repetidor para fechar o programa ou abrir novamente caso o usuário queira
 # A lista sempre vai se repetir de forma vazia
 contador = 0
 while contador == 0:
     url = []
+    os.system('cls' if os.name == 'nt' else 'clear')
     print ("Bem-vindo ao verificador de sites 1.0!")
     resposta = str (input ("Insira as URLs dos sites que dejesa verificar o status (separe por vírgula): "))
     print ("\n###############################")
@@ -45,5 +46,7 @@ while contador == 0:
         elif resposta == "n":
             print ("Programa encerrado.")
             contador = 1
+            os.system('cls' if os.name == 'nt' else 'clear')
         else:
             print ("Valor inválido")
+            os.system('cls' if os.name == 'nt' else 'clear')

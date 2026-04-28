@@ -18,7 +18,8 @@ A Python application designed to monitor website availability, allowing real-tim
 - Verificação de status de sites (HTTP requests)
 - Identificação de sites online/offline
 - Execução via terminal (CLI)
-- Tratamento básico de erros de conexão
+- Limpeza de tela para melhor experiência no terminal
+- Tratamento de erros para URLs inválidas
 
 ---
 
